@@ -1,0 +1,153 @@
+body{
+    position: 0;
+    border: 0;
+    color:rgb(105, 107, 105) ;
+    background-color: white;
+}
+.All{
+  padding-top: 4%;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 16%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(105, 107, 105);
+    overflow-x: hidden;
+    
+  }
+  
+
+  .sidebar a {
+    padding: 10px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    display: block;
+  }
+  .lst{
+    margin-top:5% ;
+    padding-top: 5%;
+  }
+  
+
+  .sidebar a:hover {
+    color: white;
+  }
+  .Two span{
+    background-color: blueviolet;
+  }
+  
+
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .Two span{
+    background-color:rgb(184, 177, 177) ;
+  }
+  .Two{
+    margin-left: 30%;
+    margin-top: 8%;
+  }
+ .Two h1{
+    word-spacing: 20px;
+  }
+ 
+  .paragraphs{
+    margin-top: 3%;
+    margin-left: 30%;
+    font-size: larger;
+  }
+  .icons{
+    margin-top: 5%;
+    display: flex;
+    margin-left: 30%;
+    list-style: none;
+    font-size: 180%;
+  }
+  .icon2{
+    margin-left: 8%;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* background-color:rgb(184, 177, 177); */
+    padding: 0.8%;
+  }
+  .icon3{
+    margin-left: 8%;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* background-color:rgb(184, 177, 177); */
+    padding: 0.8%;
+  }
+  .icon1{
+    border: 1px solid black;
+    border-radius: 50%;
+    /* background-color:rgb(184, 177, 177); */
+    padding: 0.5%;
+    padding: 0.8%;
+  }
+  .icon1:hover{
+   background-color: rgb(184, 177, 177);
+  }
+  .icon2:hover{
+    background-color: rgb(184, 177, 177);
+   }
+   .icon3:hover{
+    background-color: rgb(184, 177, 177);
+   }
+   .about{
+     margin-top: 3%;
+    width: 100%;
+    padding: 50px 0px;
+    background-color:rgb(154, 156, 154);
+  }
+  .about img{
+    height: 400px;
+    width: 300px;
+    margin-left: 5%;
+  }
+  .about-text{
+    width: 550px;
+  }
+  .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .about-text p{
+    color:rgb(65, 66, 65) ;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+ 
+
+ 
